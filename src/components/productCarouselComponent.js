@@ -14,7 +14,7 @@ const ProductCarouselComponent=()=>{
     return (
         <Carousel>
         <Carousel.Item>
-          <img  className='d-block w-100' src="carousel/carousel-1.png" alt='Third slide' style={dynamicStyles}/>
+          <img crossOrigin='anonymous' className='d-block w-100' src="carousel/carousel-1.png" alt='Third slide' style={dynamicStyles}/>
           <Carousel.Caption>
             <LinkContainer to='/product-details/1' style={{cursor:'pointer'}}>
                   <h3>Best Seller in Laptop Category</h3>

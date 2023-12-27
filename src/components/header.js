@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Badge from 'react-bootstrap/Badge';
 import Form from 'react-bootstrap/Form';
-import Stack from 'react-bootstrap/Stack';
+// import Stack from 'react-bootstrap/Stack';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Button from 'react-bootstrap/Button';
@@ -31,7 +31,7 @@ const HeaderComponent = () => {
                             <Form.Control type="text" placeholder="Looking for search...." />
                             <Button variant="warning">
 
-                                <i class="bi bi-search"></i>
+                                <i className="bi bi-search"></i>
                             </Button>
                         </InputGroup>
 

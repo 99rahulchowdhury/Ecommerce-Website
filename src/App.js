@@ -23,7 +23,7 @@ import AdminEditUserPage from "./pages/admin/adminedituserpage";
 import AdminOrderDetailsPage from "./pages/admin/adminorderdetailspage";
 import AdminOrdersPage from "./pages/admin/adminorderspage";
 import AdminProductPage from "./pages/admin/adminproductpage";
-import UserChatComponent from "./pages/user/userchatcomponent";
+// import UserChatComponent from "./pages/user/userchatcomponent";
 import RouteWithUserChatComponent from "./pages/user/RouteWithUserChatComponent";
 import ScrollToTop from "./utilities/ScrollToTop";
 function App() {
@@ -61,6 +61,9 @@ function App() {
           <Route path="/admin/products" element={<AdminProductPage />} />
           <Route path="/admin/chats" element={<AdminChatsPage />} />
           <Route path="/admin/analytics" element={<AdminAnalyticsPage />} />
+          <Route path="/admin/create-new-product" element={<AdminCreateProductsPage />} />
+          <Route path="/admin/edit-product" element={<AdminEditProductPage />} />
+          <Route path="/admin/edit-user" element={<AdminEditUserPage />} />
         </Route>
       </Routes>
       <FooterComponent />
